@@ -13,26 +13,50 @@ export default function Home() {
   return (
     <div className="sm:text-md lg:text-xl text-white m-auto text-center">
       <div className="px-2">
-        <div className=" w-3/4 m-auto border-l-4 border-b-4  border-cyan py-5 md:my-24 my-12">
+        <div className=" w-3/4 m-auto border-l-4 border-b-4  border-cyan py-5 md:my-24 my-12 mb-16">
           <p className="sm:text-7xl text-5xl font-sans text-white uppercase text-left pl-10 sm:text-center">
             Sondre Schirmer-Mikalsen
           </p>
         </div>
-        <div className="top-0  flex flex-col items-center justify-center  text-dark h-80">
+        <div className="top-0 flex flex-col items-center justify-center object-fit text-dark h-70 md:hidden">
           <TextImage bg="white" image={apple} />
         </div>
 
-        <p className="sm:text-2xl text-lg md:text-xl  mb-20">
+        <p className="sm:text-2xl text-lg md:text-xl  mb-8">
           Informatikkstudent med interesse for programmering, webutvikling og
-          UX-design!
+          UX-design.
         </p>
+        <button
+          href="#fus"
+          onClick={console.log("clicked")}
+          className="rounded-full flex flex-row m-auto bg-dark border-2 border-cyan text-cyan  px-3 py-1 mb-8"
+        >
+          Les mer her{" "}
+          <svg
+            className="w-6 h-6 m-auto ml-2"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z"
+            ></path>
+          </svg>
+        </button>
       </div>
 
       <div className="relative text-dark">
         <div className="sticky top-0 h-screen flex flex-col bg-dark text-white hidden sm:block">
           <div className="">
-            <div className="grid md:grid-cols-2 lg:grid-cols-4  w-screen text-dark h-80  my-4  drop-shadow-lg">
-              <div className="bg-black h-80 relative drop-shadow-lg rounded-sm border-white ">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4  w-screen text-dark h-80  my-4  drop-shadow-xl">
+              <div
+                id="fus"
+                className="bg-black h-80 relative drop-shadow-lg rounded-sm border-white "
+              >
                 <Image
                   alt=""
                   src={bilde1}

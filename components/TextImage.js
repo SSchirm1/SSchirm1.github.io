@@ -3,10 +3,10 @@ import Image from "next/image";
 
 function TextImage(props) {
   return (
-    <div className="md:flex font-sans lg:w-3/4 lg:shadow-2xl ">
-      <div className="flex-none w-2/3 md:w-1/3 relative m-auto">
+    <div className="md:flex font-sans lg:w-3/4 lg:shadow-2xl">
+      <div className=" w-2/3 md:w-1/3 m-auto">
         <Image
-          className="absolute object-fill"
+          className=" object-contain"
           loading="lazy"
           src={props.image}
           alt=""
