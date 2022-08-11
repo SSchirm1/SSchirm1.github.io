@@ -10,15 +10,15 @@ import sunglasses from "../images/sunglasses.png";
 
 export default function Home() {
   return (
-    <div className="text-xl text-white m-auto text-center">
-      <div className="">
+    <div className="sm:text-md lg:text-xl text-white m-auto text-center">
+      <div className="px-2">
         <div className=" w-3/4 m-auto border-l-4 border-b-4 border-cyan py-5 my-24">
-          <p className="text-7xl  font-sans text-white uppercase text-center">
+          <p className="sm:text-7xl text-3xl font-sans text-white uppercase text-center">
             Sondre Schirmer-Mikalsen
           </p>
         </div>
 
-        <p className="text-2xl  italic mb-20">
+        <p className="sm:text-2xl text-lg md:text-xl italic mb-20">
           Informatikkstudent med interesse for programmering, webutvikling og
           UX-design!
         </p>
@@ -27,7 +27,7 @@ export default function Home() {
       <div className="relative text-dark">
         <div className="sticky top-0 h-screen flex flex-col bg-dark text-white">
           <div className="">
-            <div className="grid grid-cols-4  w-screen text-dark h-80  my-4 hover:grid-rows-6 drop-shadow-lg">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4  w-screen text-dark h-80  my-4  drop-shadow-lg">
               <div className="bg-black h-80 relative drop-shadow-lg rounded-sm border-white ">
                 <Image
                   alt=""
