@@ -7,25 +7,29 @@ import TextImage from "../components/TextImage";
 import stickerImg from "../images/sticker.png";
 import studying from "../images/studying.png";
 import sunglasses from "../images/sunglasses.png";
+import apple from "../images/apple.png";
 
 export default function Home() {
   return (
     <div className="sm:text-md lg:text-xl text-white m-auto text-center">
       <div className="px-2">
-        <div className=" w-3/4 m-auto border-l-4 border-b-4 border-cyan py-5 my-24">
-          <p className="sm:text-7xl text-3xl font-sans text-white uppercase text-center">
+        <div className=" w-3/4 m-auto border-l-4 border-b-4  border-cyan py-5 md:my-24 my-12">
+          <p className="sm:text-7xl text-5xl font-sans text-white uppercase text-left pl-10 sm:text-center">
             Sondre Schirmer-Mikalsen
           </p>
         </div>
+        <div className="top-0  flex flex-col items-center justify-center  text-dark h-80">
+          <TextImage bg="white" image={apple} />
+        </div>
 
-        <p className="sm:text-2xl text-lg md:text-xl italic mb-20">
+        <p className="sm:text-2xl text-lg md:text-xl  mb-20">
           Informatikkstudent med interesse for programmering, webutvikling og
           UX-design!
         </p>
       </div>
 
       <div className="relative text-dark">
-        <div className="sticky top-0 h-screen flex flex-col bg-dark text-white">
+        <div className="sticky top-0 h-screen flex flex-col bg-dark text-white hidden sm:block">
           <div className="">
             <div className="grid md:grid-cols-2 lg:grid-cols-4  w-screen text-dark h-80  my-4  drop-shadow-lg">
               <div className="bg-black h-80 relative drop-shadow-lg rounded-sm border-white ">
@@ -67,14 +71,15 @@ export default function Home() {
             </div>
           </div>
         </div>
+
         <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-red text-white">
           <TextImage
             bg="white"
             image={stickerImg}
             tittel="Velkommen!"
-            text="Non nulla laboris non consequat sunt enim in dolor mollit magna consequat. Et amet in consequat consequat ullamco reprehenderit aliquip elit exercitation sit. Exercitation incididunt ullamco ex incididunt veniam eu ipsum reprehenderit ipsum occaecat Lorem nostrud quis aute. Pariatur ex sit Lorem eiusmod id.
+            text="Hei du der! Mitt navn er Sondre Schirmer-Mikalsen, og på denne siden kan du finne litt info om meg om du virkelig gidder. Jeg går femteåret på informatikk ved NTNU i Trondheim, og spesialiserer meg innenfor interaksjonsdesign, spill og læringsteknologi. 
 
-Nostrud exercitation adipisicing ut esse duis incididunt in ullamco qui in in non dolor adipisicing. Culpa aliquip veniam laboris cupidatat veniam excepteur. Duis sit deserunt exercitation laborum officia id velit magna. Commodo amet ullamco elit sint consequat veniam sit. Mollit consequat sunt do et duis labore cupidatat duis. Velit dolor eiusmod elit incididunt."
+            På denne siden finner du CV-en min, info om mine ferdigheter innenfor webutvikling, litt om mine hobbyer, og du kan se diverse applikasjoner jeg har laget.kdwefk Hei du der! Mitt navn er Sondre Schirmer-Mikalsen, og på denne siden kan du finne litt info om meg om du virkelig gidder. Jeg går femteåret på informatikk ved NTNU i Trondheim, og spesialiserer meg innenfor interaksjonsdesign, spill og læringsteknologi."
           />
         </div>
         <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-cyan">
