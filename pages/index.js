@@ -77,9 +77,7 @@ export default function Home() {
             bg="white"
             image={stickerImg}
             tittel="Velkommen!"
-            text="Hei du der! Mitt navn er Sondre Schirmer-Mikalsen, og på denne siden kan du finne litt info om meg om du virkelig gidder. Jeg går femteåret på informatikk ved NTNU i Trondheim, og spesialiserer meg innenfor interaksjonsdesign, spill og læringsteknologi. 
-
-            På denne siden finner du CV-en min, info om mine ferdigheter innenfor webutvikling, litt om mine hobbyer, og du kan se diverse applikasjoner jeg har laget.kdwefk Hei du der! Mitt navn er Sondre Schirmer-Mikalsen, og på denne siden kan du finne litt info om meg om du virkelig gidder. Jeg går femteåret på informatikk ved NTNU i Trondheim, og spesialiserer meg innenfor interaksjonsdesign, spill og læringsteknologi."
+            text="Hei du der! Mitt navn er Sondre Schirmer-Mikalsen, og på denne siden kan du finne litt info om meg om du virkelig gidder. Jeg går femteåret på informatikk ved NTNU i Trondheim, og spesialiserer meg innenfor interaksjonsdesign, spill og læringsteknologi. På denne siden finner du CV-en min, info om mine ferdigheter innenfor webutvikling, litt om mine hobbyer, og du kan se diverse applikasjoner jeg har laget.kdwefk Hei du der! Mitt navn er Sondre Schirmer-Mikalsen, og på denne siden kan du finne litt info om meg om du virkelig gidder. Jeg går femteåret på informatikk ved NTNU i Trondheim, og spesialiserer meg innenfor interaksjonsdesign, spill og læringsteknologi."
           />
         </div>
         <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-cyan">
