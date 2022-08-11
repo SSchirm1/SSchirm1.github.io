@@ -1,15 +1,8 @@
-import Navbar from "../components/Navbar";
 import Image from "next/image";
-import Textcontainer from "../components/Textcontainer";
 import bilde1 from "../images/1.jpg";
 import bilde2 from "../images/2.jpg";
 import bilde3 from "../images/3.jpg";
 import TextImage from "../components/TextImage";
-
-import col1 from "../images/home/col1.jpg";
-import col2 from "../images/home/col2.jpg";
-import col3 from "../images/home/col3.jpg";
-import col4 from "../images/home/col4.jpg";
 
 import stickerImg from "../images/sticker.png";
 import studying from "../images/studying.png";
@@ -37,6 +30,7 @@ export default function Home() {
             <div className="grid grid-cols-4  w-screen text-dark h-80  my-4 hover:grid-rows-6 drop-shadow-lg">
               <div className="bg-black h-80 relative drop-shadow-lg rounded-sm border-white ">
                 <Image
+                  alt=""
                   src={bilde1}
                   className="object-cover"
                   layout="fill"
@@ -45,6 +39,7 @@ export default function Home() {
               </div>
               <div className="bg-black h-80 relative drop-shadow-lg rounded-sm border-white ">
                 <Image
+                  alt=""
                   src={bilde2}
                   className="object-cover"
                   layout="fill"
@@ -53,6 +48,7 @@ export default function Home() {
               </div>
               <div className="bg-black h-80 relative drop-shadow-lg rounded-sm border-white ">
                 <Image
+                  alt=""
                   src={bilde3}
                   className="object-cover"
                   layout="fill"
@@ -61,6 +57,7 @@ export default function Home() {
               </div>
               <div className="bg-black h-80 relative drop-shadow-2xl rounded-sm border-white ">
                 <Image
+                  alt=""
                   src={bilde1}
                   className="object-cover"
                   layout="fill"
@@ -70,7 +67,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-red text-white">
+        <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-red text-white">
           <TextImage
             bg="white"
             image={stickerImg}
@@ -80,7 +77,7 @@ export default function Home() {
 Nostrud exercitation adipisicing ut esse duis incididunt in ullamco qui in in non dolor adipisicing. Culpa aliquip veniam laboris cupidatat veniam excepteur. Duis sit deserunt exercitation laborum officia id velit magna. Commodo amet ullamco elit sint consequat veniam sit. Mollit consequat sunt do et duis labore cupidatat duis. Velit dolor eiusmod elit incididunt."
           />
         </div>
-        <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-cyan">
+        <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-cyan">
           <TextImage
             bg="white"
             image={studying}
@@ -90,7 +87,7 @@ Nostrud exercitation adipisicing ut esse duis incididunt in ullamco qui in in no
 Nostrud exercitation adipisicing ut esse duis incididunt in ullamco qui in in non dolor adipisicing. Culpa aliquip veniam laboris cupidatat veniam excepteur. Duis sit deserunt exercitation laborum officia id velit magna. Commodo amet ullamco elit sint consequat veniam sit. Mollit consequat sunt do et duis labore cupidatat duis. Velit dolor eiusmod elit incididunt."
           />
         </div>
-        <div class="sticky top-0 h-screen flex flex-col items-center justify-center bg-gray text-dark">
+        <div className="sticky top-0 h-screen flex flex-col items-center justify-center bg-gray text-dark">
           <TextImage
             bg="white"
             image={sunglasses}

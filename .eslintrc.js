@@ -12,5 +12,9 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["react"],
-  rules: { semi: false },
+  rules: {
+    semi: 0,
+    quotes: 0,
+    "space-before-function-paren": 0,
+  },
 };
