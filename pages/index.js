@@ -18,11 +18,11 @@ export default function Home() {
             Sondre Schirmer-Mikalsen
           </p>
         </div>
-        <div className="top-0 flex flex-col items-center justify-center object-fit text-dark h-70 md:hidden">
+        <div className="top-0 flex flex-col items-center justify-center object-fit text-dark h-80 md:hidden">
           <TextImage bg="white" image={apple} />
         </div>
 
-        <p className="sm:text-2xl text-lg md:text-xl  mb-8">
+        <p className="sm:text-2xl px-10 text-md md:text-xl  mb-8 font-mono md:font-sans">
           Informatikkstudent med interesse for programmering, webutvikling og
           UX-design.
         </p>
@@ -50,44 +50,44 @@ export default function Home() {
       </div>
 
       <div className="relative text-dark">
-        <div className="sticky top-0 h-screen flex flex-col bg-dark text-white hidden sm:block">
+        <div className="pb-10 flex flex-col bg-dark text-white hidden md:block">
           <div className="">
-            <div className="grid md:grid-cols-2 lg:grid-cols-4  w-screen text-dark h-80  my-4  drop-shadow-xl">
+            <div className="grid md:grid-cols-2 lg:grid-cols-4  w-5/6 m-auto text-dark h-80 my-4 md:gap-2 drop-shadow-xl">
               <div
                 id="fus"
-                className="bg-black h-80 relative drop-shadow-lg rounded-sm border-white "
+                className="bg-black h-80 relative drop-shadow-lg  border-white border-2"
               >
                 <Image
                   alt=""
                   src={bilde1}
-                  className="object-cover"
+                  className="object-cover "
                   layout="fill"
                   objectFit="cover"
                 />
               </div>
-              <div className="bg-black h-80 relative drop-shadow-lg rounded-sm border-white ">
+              <div className="bg-black h-80 relative drop-shadow-lg  border-white border-2 ">
                 <Image
                   alt=""
                   src={bilde2}
-                  className="object-cover"
+                  className="object-cover "
                   layout="fill"
                   objectFit="cover"
                 />
               </div>
-              <div className="bg-black h-80 relative drop-shadow-lg rounded-sm border-white ">
+              <div className="bg-black h-80 relative drop-shadow-lg  border-white border-2 ">
                 <Image
                   alt=""
                   src={bilde3}
-                  className="object-cover"
+                  className="object-cover "
                   layout="fill"
                   objectFit="cover"
                 />
               </div>
-              <div className="bg-black h-80 relative drop-shadow-2xl rounded-sm border-white ">
+              <div className="bg-black h-80 relative drop-shadow-2xl  border-white border-2 ">
                 <Image
                   alt=""
                   src={bilde1}
-                  className="object-cover"
+                  className="object-cover "
                   layout="fill"
                   objectFit="cover"
                 />

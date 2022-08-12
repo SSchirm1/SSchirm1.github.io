@@ -4,9 +4,9 @@ function Navbar() {
   return (
     <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <span className="font-semibold text-2xl tracking-tight">
+        <a className="font-semibold text-2xl tracking-tight" href="/">
           &lt;Sondre/&gt;
-        </span>
+        </a>
       </div>
       <div className="block lg:hidden">
         <button className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
@@ -23,32 +23,32 @@ function Navbar() {
       <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div className="text-lg lg:flex-grow hidden md:block">
           <a
-            href="CV"
+            href="cv"
             className="block mt-4 lg:inline-block lg:mt-0 text-teal-50 hover:text-white mx-16 hover:underline"
           >
             CV
           </a>
           <a
             href="prosjekter"
-            className="block mt-4 lg:inline-block lg:mt-0 text-teal-50 hover:text-white mx-16 hover:underline"
+            className="block mt-4 lg:inline-block lg:mt-0 text-teal-50 hover:text-white mx-8 hover:underline"
           >
             Prosjekter
           </a>
           <a
             href="hobbyer"
-            className="block mt-4 lg:inline-block lg:mt-0 text-teal-50 hover:text-white mx-16 hover:underline"
+            className="block mt-4 lg:inline-block lg:mt-0 text-teal-50 hover:text-white mx-8 hover:underline"
           >
             Hobbyer
           </a>
           <a
             href="kunst"
-            className="block mt-4 lg:inline-block lg:mt-0 text-teal-50 hover:text-white mx-16 hover:underline"
+            className="block mt-4 lg:inline-block lg:mt-0 text-teal-50 hover:text-white mx-8 hover:underline"
           >
             Kunst
           </a>
           <a
             href="Blogg"
-            className="block mt-4 lg:inline-block lg:mt-0 text-teal-50 hover:text-white mx-16 hover:underline"
+            className="block mt-4 lg:inline-block lg:mt-0 text-teal-50 hover:text-white mx-8 hover:underline"
           >
             Blogg
           </a>
