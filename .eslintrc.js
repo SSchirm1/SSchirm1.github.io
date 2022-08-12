@@ -16,5 +16,6 @@ module.exports = {
     semi: 0,
     quotes: 0,
     "space-before-function-paren": 0,
+    "next/no-html-link-for-pages": 0,
   },
 };

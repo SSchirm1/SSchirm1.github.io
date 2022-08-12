@@ -1,26 +1,17 @@
 import React from "react";
-import { useState } from "react";
+
+import Link from "next/dist/client/link";
 
 function Navbar() {
-  const [menuState, setMenuState] = useState(false);
-
-  function handleMenuClick() {
-    setMenuState((menuState) => !menuState);
-    console.log(menuState);
-  }
-
   return (
     <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
-        <a className="font-semibold text-2xl tracking-tight" href="/">
-          &lt;Sondre/&gt; {menuState}
-        </a>
+        <Link href="/" className="font-semibold text-2xl tracking-tight">
+          <a>&lt;Sondre/&gt; </a>
+        </Link>
       </div>
       <div className="block lg:hidden">
-        <button
-          onClick={handleMenuClick}
-          className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
-        >
+        <button className="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
           <svg
             className="fill-current h-3 w-3"
             viewBox="0 0 20 20"
