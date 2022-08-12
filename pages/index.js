@@ -18,7 +18,7 @@ export default function Home() {
             Sondre Schirmer-Mikalsen
           </p>
         </div>
-        <div className="top-0 flex flex-col items-center justify-center object-fit text-dark h-80 md:hidden">
+        <div className="top-0 flex flex-col items-center justify-center object-fit text-dark h-80 sm:hidden">
           <TextImage bg="white" image={apple} />
         </div>
 
