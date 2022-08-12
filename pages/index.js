@@ -22,9 +22,9 @@ export default function Home() {
           <TextImage bg="white" image={apple} />
         </div>
 
-        <p className="sm:text-2xl px-10 text-md md:text-xl  mb-8 font-mono md:font-sans">
+        <p className="sm:text-xl  w-3/4 m-auto py-2    mb-8 font-mono md:font-sans">
           Informatikkstudent med interesse for programmering, webutvikling og
-          UX-design.
+          UX-design. NB: denne siden er i tidlig utviklingsfase!
         </p>
         <button
           href="#fus"
