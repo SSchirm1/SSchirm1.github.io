@@ -12,47 +12,47 @@ import apple from "../images/apple.png";
 export default function Home() {
   return (
     <div className="sm:text-md lg:text-xl text-white m-auto text-center">
-      <div className="px-2">
-        <div className=" w-3/4 m-auto border-l-4 border-b-4  border-cyan py-5 md:my-24 my-12 mb-16">
-          <p className="sm:text-7xl text-5xl font-sans text-white uppercase text-left pl-10 sm:text-center">
+      <div className="px-2 ">
+        <div className=" w-3/4 m-auto border-l-4 border-b-4  border-cyan py-5 md:my-12 my-12  md:mb-24">
+          <p className="sm:text-7xl text-5xl font-sans text-white  uppercase text-left pl-10 sm:text-center">
             Sondre Schirmer-Mikalsen
           </p>
         </div>
-        <div className="top-0 flex flex-col items-center justify-center object-fit text-dark h-80 sm:hidden">
-          <TextImage bg="white" image={apple} />
-        </div>
-
-        <p className="sm:text-xl  w-3/4 m-auto py-2    mb-8 font-mono md:font-sans">
-          Informatikkstudent med interesse for programmering, webutvikling og
-          UX-design. NB: denne siden er i tidlig utviklingsfase!
-        </p>
-        <button
-          href="#fus"
-          onClick={console.log("clicked")}
-          className="rounded-full flex flex-row m-auto bg-dark border-2 border-cyan text-cyan  px-3 py-1 mb-8"
-        >
-          Les mer her{" "}
-          <svg
-            className="w-6 h-6 m-auto ml-2"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
+        <div className=" flex flex-col items-center justify-center object-fit text-dark  ">
+          <TextImage
+            bg="white"
+            image={apple}
+            text="Informatikkstudent med interesse for programmering, webutvikling og
+          UX-design. NB: denne siden er i tidlig utviklingsfase!"
+          />
+          <button
+            href="#fus"
+            onClick={console.log("clicked")}
+            className="rounded-full flex flex-row m-auto bg-dark border-2 border-cyan text-cyan  px-3 py-1 my-8"
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z"
-            ></path>
-          </svg>
-        </button>
+            Les mer her{" "}
+            <svg
+              className="w-6 h-6 m-auto ml-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M15 13l-3 3m0 0l-3-3m3 3V8m0 13a9 9 0 110-18 9 9 0 010 18z"
+              ></path>
+            </svg>
+          </button>
+        </div>
       </div>
 
       <div className="relative text-dark">
-        <div className="pb-10 flex flex-col bg-dark text-white hidden md:block">
+        <div className="pb-10 flex flex-col bg-dark text-white hidden lg:block">
           <div className="">
-            <div className="grid md:grid-cols-2 lg:grid-cols-4  w-5/6 m-auto text-dark h-80 my-4 md:gap-2 drop-shadow-xl">
+            <div className="grid lg:grid-cols-2 xl:grid-cols-4 lg:mb-80 xl:mb-0 w-5/6 m-auto text-dark h-80 my-4 md:gap-2 drop-shadow-xl">
               <div
                 id="fus"
                 className="bg-black h-80 relative drop-shadow-lg  border-white border-2"
